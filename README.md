@@ -1,40 +1,131 @@
-<<<<<<< HEAD
-# NextJsPs
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Next.js Mini Projects 🚀
 
-## Getting Started
+Welcome to my Next.js learning repository!
 
-First, run the development server:
+This repo is where I’ll learn Next.js by building small, practical projects. Instead of only following tutorials, I’ll use these mini-projects to understand how Next.js works and gradually improve my React and full-stack development skills.
 
-```bash
+🎯 Goals
+
+- Learn Next.js fundamentals
+- Understand the App Router
+- Practice React with Next.js
+- Learn server and client components
+- Work with APIs and data fetching
+- Understand routing and dynamic routes
+- Practice forms and user interactions
+- Learn basic authentication
+- Explore databases and backend functionality
+- Build real-world mini-projects
+- Improve my frontend and full-stack development skills
+
+🛠️ Tech Stack
+
+- Next.js
+- React
+- JavaScript / TypeScript
+- Tailwind CSS
+- Node.js
+- Other tools and libraries as needed for individual projects
+
+📂 Repository Structure
+
+Each mini-project will have its own folder:
+
+nextjs-mini-projects/
+│
+├── project-01/
+├── project-02/
+├── project-03/
+├── project-04/
+└── ...
+
+The projects may start simple and become more advanced as I learn.
+
+📚 Learning Path
+
+Beginner
+
+- [ ] Next.js project setup
+- [ ] App Router
+- [ ] Pages and layouts
+- [ ] Navigation
+- [ ] Static and dynamic routes
+- [ ] Components
+- [ ] Props and state
+- [ ] Client vs Server Components
+- [ ] Loading and error UI
+
+Intermediate
+
+- [ ] Data fetching
+- [ ] API routes / Route Handlers
+- [ ] Forms
+- [ ] Server Actions
+- [ ] Authentication
+- [ ] Database integration
+- [ ] Middleware
+- [ ] Image and font optimization
+
+Advanced
+
+- [ ] Caching
+- [ ] Revalidation
+- [ ] Performance optimization
+- [ ] SEO and metadata
+- [ ] Deployment
+- [ ] Full-stack applications
+
+💡 Mini Projects
+
+#| Project| Concepts
+01| Coming Soon| Next.js basics
+02| Coming Soon| Routing
+03| Coming Soon| API & data fetching
+04| Coming Soon| Forms
+05| Coming Soon| Authentication
+06| Coming Soon| Database
+07| Coming Soon| Full-stack Next.js
+
+🧪 How to Run
+
+Clone the repository:
+
+git clone <your-repository-url>
+cd nextjs-mini-projects
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📝 Learning Notes
 
-## Learn More
+I’ll use this repository not only to store projects, but also to document things I learn along the way.
 
-To learn more about Next.js, take a look at the following resources:
+Some notes may include:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- What I learned
+- Problems I encountered
+- How I solved them
+- Useful Next.js concepts
+- Things I want to revisit
+- Improvements I can make to previous projects
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🌱 Progress
 
-## Deploy on Vercel
+This repository is a work in progress.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The goal isn't to build perfect projects from the beginning. The goal is to learn, experiment, make mistakes, and improve with every project.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> 42ac839 (Initial commit from Create Next App)
+«Learn → Build → Break → Fix → Improve 🚀»
+
+---
+
+Made while learning Next.js.
