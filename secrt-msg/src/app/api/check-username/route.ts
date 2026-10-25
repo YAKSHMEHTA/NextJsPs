@@ -23,8 +23,8 @@ export async function GET(request: Request) {
 
 		return Response.json({
 			success: true,
-			available: !user,
-			message: user ? "username already taken" : "username available",
+			available: !user || !user.isVerifyed,
+			message: user && user.isVerifyed ? "username already taken" : "username available",
 		});
 	} catch (error) {
 		console.error("error checking username", error);
