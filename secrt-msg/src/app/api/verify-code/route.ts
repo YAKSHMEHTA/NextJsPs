@@ -27,6 +27,7 @@ export async function POST(req:Request){
 
     }catch(err){
         console.log('error on /verify-code',err);
+        return Response.json({success:'false',message:'an error occured'});
     }
 
 }
