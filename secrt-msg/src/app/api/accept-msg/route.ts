@@ -4,7 +4,7 @@ import dbConnect from "@/lib/dbConnect";
 import UserModel from "@/model/user";
 import { User } from "next-auth";
 import { authOptions } from "../auth/[...nextauth]/options";
-import { success } from "zod";
+
 
 export async function POST(req:Request) {
     await dbConnect();
